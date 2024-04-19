@@ -1,17 +1,50 @@
-### Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile README</title>
+  <style>
+    .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 20px;
+    }
 
-<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/LogiqueClergyman/LogiqueClergyman/blob/main/devcard.svg" width="400" alt="Adi's Dev Card"/></a>
-<!--
-**LogiqueClergyman/LogiqueClergyman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    .info {
+      flex-grow: 1;
+    }
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    .dev-card {
+      width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+      <h3>Hi Everyone!!!</h3>
+      <p>Welcome to my GitHub profile. I'm Adi, a passionate developer.</p>
+      <ul>
+        <li>🔭 I’m currently working on...</li>
+        <li>🌱 I’m currently learning...</li>
+        <li>💬 Ask me about...</li>
+        <li>📫 How to reach me: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+        <!-- Add more details as needed -->
+      </ul>
+      <div>
+        <!-- Add badges here -->
+        <img src="https://img.shields.io/badge/-BadgeName-<COLOR>" alt="BadgeName">
+        <img src="https://img.shields.io/badge/-BadgeName-<COLOR>" alt="BadgeName">
+        <!-- Add more badges as needed -->
+      </div>
+    </div>
+    <div class="dev-card">
+      <a href="https://app.daily.dev/DailyDevTips">
+        <img src="https://github.com/LogiqueClergyman/LogiqueClergyman/blob/main/devcard.svg" alt="Adi's Dev Card">
+      </a>
+    </div>
+  </div>
+</body>
+</html>
